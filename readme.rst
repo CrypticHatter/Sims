@@ -2,11 +2,11 @@
 Student Information management system
 ###################
 
-This is a school information management system application that i was created for my project using codeignitor framework. 
+This is a school information management system application that i was created for my project using codeigniter framework. 
 It comprises following modules.
 
 1. Student, Teacher registration
-2. classroom maagement
+2. classroom management
 3. Subjects and timetable management
 4. Student attendance tracker
 5. Student payment management (Manual system)
