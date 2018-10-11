@@ -17,11 +17,30 @@ It comprises following modules.
 10. Backup and System configuration
 
 *******************
-Server Requirements
+Application details
 *******************
+I was used "Admin LTE" Bootstrap HTML theme as the design of my application. (https://adminlte.io/themes/AdminLTE/index2.html)
+"theme.php" view file contain common layout design of the application, each page contents will be injected when calling controller class 
+functions. HTML layouts of admin side was located inside "Admin" directory inside view file. Most of these view files are modified 
+by me to match with application requiremtents. 
 
-PHP version 5.6 or newer is recommended.
+I was used a common model class called "My_model" for common CRUD functions of the application such as create, Update, file upload etc.
+You can find it inside "core" directory. All model classes are extended from that common model. All Controllers and Model Class files 
+are written by myself.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+
+*******************
+Plugins and libraries
+*******************
+I have used "PHPExcel", "CSV reader" libraries to read, store and generate excel and csv files related data.
+also jQuery plugins like chartjs, fullcalendar, iCheck, Morries chart etc. were used as requirements of application.
+
+
+*******************
+Helper classes
+*******************
+There were two helper classes written by me, one for manage emails and other one for common functions of app like format date, duration,
+ show validation error or success alerts etc. 
+
+
+
