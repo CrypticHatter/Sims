@@ -39,8 +39,8 @@ also jQuery plugins like chartjs, fullcalendar, iCheck, Morries chart etc. were 
 *******************
 Helper classes
 *******************
-There were two helper classes written by me, one for manage emails and other one for common functions of app like format date, duration,
- show validation error or success alerts etc. 
+
+There were two helper classes written by me, one for manage emails and other one for common functions of app like format date, duration, show validation error or success alerts etc. 
 
 
 
