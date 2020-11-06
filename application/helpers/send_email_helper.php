@@ -9,8 +9,8 @@ function sendMail($receiver, $subject, $message)
 	  'protocol' => 'smtp',
 	  'smtp_host' => 'ssl://smtp.googlemail.com',
 	  'smtp_port' => 465,
-	  'smtp_user' => 'chandimalfdo91@gmail.com', // change it to yours
-	  'smtp_pass' => '23noapte91', // change it to yours
+	  'smtp_user' => '', // change it to yours
+	  'smtp_pass' => '', // change it to yours
 	  'mailtype' => 'html',
 	  'charset' => 'iso-8859-1',
 	  'wordwrap' => TRUE
@@ -19,7 +19,7 @@ function sendMail($receiver, $subject, $message)
 	$CI->load->library('email');
 	$CI->email->initialize($config);
 	$CI->email->set_newline("\r\n");
-	$CI->email->from('chandimalfdo91@gmail.com'); // change it to yours
+	$CI->email->from('testuser@email.com'); // change it to yours
 	$CI->email->to($receiver);// change it to yours
 	$CI->email->subject($subject);
 	$CI->email->message($message);

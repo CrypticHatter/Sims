@@ -193,9 +193,9 @@ class Auth extends CI_Controller{
 	public function test(){
 		$this->load->model('Admin_model');
 		$data = [];
-		$data['firstname'] = 'Rajitha';
-		$data['lastname'] = 'Chandimal';
-		$data['email'] = 'chandimal@longwapps.com';
+		$data['firstname'] = 'Alex';
+		$data['lastname'] = 'Hales';
+		$data['email'] = 'user@email.com';
 		$data['password'] = password_hash('password', PASSWORD_BCRYPT);
 		$this->Admin_model->insert($data);
 	}
